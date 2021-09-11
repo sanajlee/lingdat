@@ -1,0 +1,10 @@
+1#Luxembourg#80800
+2#Qatar#75900
+3#Bermuda#69900
+4#Jersey#57000
+5#Norway#55600
+6#Kuwait#55300
+7#United Arab Emirates#55200
+8#Singapore#48900
+9#United States#46000
+10#Ireland#45600
