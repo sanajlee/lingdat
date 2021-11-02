@@ -1,27 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <students>
-    <student1>
+    <student name="김뽀삐">
         <year> 1 </year>
         <class> 1 </class>
-        <name> 김뽀삐 </name>
         <message> 단발머리 하고 지난 일은 잊고 </message>
-    </student1>
-    <student2>
+    </student>
+    <student name="송초코">
         <year> 1 </year>
         <class> 9 </class>
-        <name> 송초코 </name>
         <message> 나 새롭게 태어날 거예요 </message>
-    </student2>
-    <student3>
+    </student>
+    <student name="이야옹">
         <year> 2 </year>
         <class> 7 </class>
-        <name> 이야옹 </name>
         <message> It's gonna be fine </message>
-    </student3>
-    <student4>
+    </student>
+    <student name="한재훈">
         <year> 3 </year>
         <class> 5 </class>
-        <name> 한재훈 </name>
         <message> 얘들아 3년 동안 수고했고 나중에 웃으면서 보자 </message>
     </student4>
 </students>
