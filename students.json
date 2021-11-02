@@ -1,0 +1,28 @@
+{
+	"year": 1,
+	"class": 1,
+	"name": "김뽀삐",
+	"message": "단발머리 하고 지난 일은 잊고",
+	"is_gosam": false
+}
+{
+	"year": 1,
+	"class": 9,
+	"name": "송초코",
+	"message": "나 새롭게 태어날 거예요",
+	"is_gosam": false
+}	
+{
+	"year": 2,
+	"class": 7,
+	"name": "이야옹",
+	"message": "It's gonna be fine",
+	"is_gosam": false
+}
+{
+	"year": 3,
+	"class": 5,
+	"name": "한재훈",
+	"message": "얘들아 3년 동안 수고했고 나중에 웃으면서 보자",
+	"is_gosam": true
+}
