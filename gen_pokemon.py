@@ -25,7 +25,7 @@ def getPokemon(name=None):
   return pdic
 
 
-def getPokemonImg(name):
+def getPokemonImg(name=None):
   if name == None:
     num = random.randint(1, 151)
     p = pypokedex.get(dex=num)
