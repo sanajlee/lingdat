@@ -1,7 +1,7 @@
 from IPython.display import Image, display
 from urllib.parse import urljoin
 import requests
-import ranodm
+import random
 
 def getPokemon(name=None):
   if name == None:
