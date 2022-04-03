@@ -26,7 +26,11 @@ def getPokemon(name=None):
 
 
 def getPokemonImg(name):
-  p = pypokedex.get(name=name)
+  if name == None:
+    num = random.randint(1, 151)
+    p = pypokedex.get(dex=num)
+  else:
+    p = pypokedex.get(name=name)
   url = urljoin("https://img.pokemondb.net/sprites/home/normal/", str(p.name)+".png")
   display(Image(requests.get(url).content))
 
