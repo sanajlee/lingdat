@@ -2,6 +2,7 @@ from IPython.display import Image, display
 from urllib.parse import urljoin
 import requests
 import random
+import pypokedex
 
 def getPokemon(name=None):
   if name == None:
