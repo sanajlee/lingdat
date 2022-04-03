@@ -2,9 +2,9 @@ from IPython.display import Image, display
 from urllib.parse import urljoin
 import requests
 import random
-import pypokedex
 
 def getPokemon(name=None):
+  import pypokedex
   if name == None:
     num = random.randint(1, 151)
     p = pypokedex.get(dex=num)
@@ -26,6 +26,7 @@ def getPokemon(name=None):
 
 
 def getPokemonImg(name):
+  import pypokedex
   p = pypokedex.get(name=name)
   url = urljoin("https://img.pokemondb.net/sprites/home/normal/", str(p.name)+".png")
   display(Image(requests.get(url).content))
