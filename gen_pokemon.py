@@ -37,17 +37,17 @@ def getPokemonImg(name=None):
 
 def simpleTypeCompare(poke1, poke2):
 
-  type1 = poke1.get_type()
-  type2 = poke2.get_type()
+  type1 = poke1.type
+  type2 = poke2.type
 
   if type1 == 'dragon' and type2 != 'dragon':
-    return poke1
+    return poke1.name
   elif type1 != 'dragon' and type2 == 'dragon':
-    return poke2 
+    return poke2.name
   
   if type1 == 'normal' and type2 != 'normal':
-    return poke2
+    return poke2.name
   elif type1 != 'normal' and type2 == 'normal':
-    return poke1
+    return poke1.name
 
   return 'fair'
