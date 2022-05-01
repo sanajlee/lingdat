@@ -1,0 +1,8 @@
+{"name": "Bulbasaur", "Type": "Grass", "HP": 45, "Generation": 1}
+{"name": "Charmander", "Type": "Fire", "HP": 39, "Generation": 1}
+{"name": "Squirtle", "Type": "Water", "HP": 44, "Generation": 1}
+{"name": "Chikorita", "Type": "Grass", "HP": 45, "Generation": 2}
+{"name": "Pichu", "Type": "Electric", "HP": 20, "Generation": 2}
+{"name": "Togepi", "Type": "Fairy", "HP": 35, "Generation": 2}
+{"name": "Arceus", "Type": "Normal", "HP": 120, "Generation": 4}
+{"name": "Lapras", "Type": "Water", "HP": 130, "Generation": 1}
